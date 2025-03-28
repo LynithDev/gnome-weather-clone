@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+    --color-app-white: #fafafa;
+    --color-app-white-secondary: #ffffff;
+    --color-app-gray: #242424;
+    --color-app-gray-secondary: #363636;
+    --color-app-accent: #7faddc;
+    --color-app-input-focus: #e6e6e6;
+    --color-app-input-focus-dark: #3a3a3a;
+
+    --text-xs: 11px;
+    --text-sm: 13px;
+    --shadow: 0 0px 3px 1px rgba(0 0 0 / 0.15);
+    --shadow-lg: 0 0px 8px 2px rgba(0 0 0 / 0.15);
+}
+
+body {
+    @apply bg-app-white dark:bg-app-gray text-black dark:text-white;
+}

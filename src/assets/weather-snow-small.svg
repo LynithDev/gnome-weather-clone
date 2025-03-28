@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+    <path id="snowflake-path" fill="#2e3436" stroke-linecap="round"
+        d="M7.492.492A.5.5 0 0 0 7 1v1.533l-1.252-.717a.5.5 0 1 0-.496.868l1.748 1v8.683l-1.746.987a.5.5 0 1 0 .492.87L7 13.516V15a.5.5 0 1 0 1 0v-1.484l1.254.709a.500176.500176 0 1 0 .492-.871L8 12.367V3.684l1.748-1a.5.5 0 1 0-.496-.868L8 2.533V1a.5.5 0 0 0-.508-.508Z"
+        color="#000"
+        style="fill:#99c1f1;fill-opacity:1" />
+    <use xlink:href="#snowflake-path" width="100%" height="100%" transform="rotate(-60 7.500005 8.000004)" />
+    <use xlink:href="#snowflake-path" width="100%" height="100%" transform="rotate(-120 7.499998 8)" />
+</svg>
